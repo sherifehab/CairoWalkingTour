@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cairo Walking Tour</string>
+
+    <!-- main categories name -->
+    <string name="landmarks_category">Landmarks</string>
+    <string name="cafes_category">Cafes</string>
+    <string name="restaurants_category">Restaurants</string>
+    <string name="whats_on_category">What\'s On</string>
+    <string name="container_image">container image</string>
+    <string name="title">Title</string>
+    <string name="sub_title">sub title</string>
+</resources>

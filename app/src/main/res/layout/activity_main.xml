@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cairowalkingtour.MainActivity">
+
+    <TextView
+        android:id="@+id/landmarks"
+        style="@style/CategoryStyle"
+        android:text="@string/landmarks_category" />
+
+    <View style="@style/SeparatorStyle"></View>
+
+    <TextView
+        android:id="@+id/cafes"
+        style="@style/CategoryStyle"
+        android:text="@string/cafes_category" />
+
+    <View style="@style/SeparatorStyle"></View>
+
+    <TextView
+        android:id="@+id/restaurants"
+        style="@style/CategoryStyle"
+        android:text="@string/restaurants_category" />
+
+    <View style="@style/SeparatorStyle"></View>
+
+    <TextView
+        android:id="@+id/whats_on"
+        style="@style/CategoryStyle"
+        android:text="@string/whats_on_category" />
+
+</LinearLayout>
